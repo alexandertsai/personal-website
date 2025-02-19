@@ -1,17 +1,63 @@
+/* style.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
-    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #fff;
 }
+
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-nav a {
-    color: white;
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
     margin: 0 15px;
+}
+
+nav ul li a {
     text-decoration: none;
+    color: #333;
+    font-weight: 700;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('assets/images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
