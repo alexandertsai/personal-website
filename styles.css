@@ -1,0 +1,84 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'OpenAI Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    position: fixed; /* Use fixed for a sticky nav, or remove positioning */
+    top: 0; /* Stick it to the top */
+    left: 0; /* Ensure it starts from the left */
+    width: 100%; /* Make it full-width for responsiveness */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+nav {
+    border: none; /* Remove any border from the nav element */
+    outline: none; /* Remove any outline from the nav element */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for the list items */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit; /* Ensure the link color matches the text color */
+    outline: none; /* Remove the outline */
+    border: none; /* Remove any border from the link */
+}
+
+nav ul li a:hover {
+    color: #c4c4c4;
+}
+
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    min-height: 100vh;
+    position: relative; /* Ensure the main element is positioned relative */
+}
+
+article {
+    width: 75%;
+    margin-left: 25%; /* Ensure the article content does not overlap with the sidebar */
+}
+
+article h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 15px;
+}
+
+/* For Mobile */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}
