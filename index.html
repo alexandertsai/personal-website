@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenAI Blog Style Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Personal Website</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Blog</a></li>
+<body class="font-sans text-gray-800 bg-white leading-loose m-0 p-0">
+    <header class="bg-white py-2 fixed top-0 left-0 w-full z-50 flex justify-center">
+        <nav class="border-none outline-none">
+            <ul class="list-none p-0 m-0 flex">
+                <li class="mr-5 last:mr-0">
+                    <a href="index.html" class="no-underline text-inherit outline-none border-none hover:text-gray-400">Home</a>
+                </li>
+                <li class="mr-5 last:mr-0">
+                    <a href="services.html" class="no-underline text-inherit outline-none border-none hover:text-gray-400">Services</a>
+                </li>
+                <li class="mr-5 last:mr-0">
+                    <a href="product.html" class="no-underline text-inherit outline-none border-none hover:text-gray-400">Products</a>
+                </li>
+                <li class="mr-5 last:mr-0">
+                    <a href="about.html" class="no-underline text-inherit outline-none border-none hover:text-gray-400">About</a>
+                </li>
+                <li class="mr-5 last:mr-0">
+                    <a href="contact.html" class="no-underline text-inherit outline-none border-none hover:text-gray-400">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <article>
-            <h1>OpenAI o3-mini</h1>
-            <p>Published on January 31, 2025</p>
-            <p>We’re releasing OpenAI o3‑mini, the newest, most cost-efficient model in our reasoning series...</p>
-            <!-- Additional content here -->
+    <main class="flex max-w-screen-xl mx-auto my-5 px-5 min-h-screen relative">
+        <article class="w-3/4 ml-1/4">
+            <h1 class="text-4xl mb-2.5 text-center">Your Heading</h1>
+            <p class="mb-3.75">Your paragraph text.</p>
         </article>
     </main>
-    <footer>
-        <p>Alexander Tsai</p>
-    </footer>
 </body>
 </html>
