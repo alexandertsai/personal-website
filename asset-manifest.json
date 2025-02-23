@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2d9811a.css",
-    "main.js": "/static/js/main.a33c8074.js",
+    "main.css": "/static/css/main.c3105386.css",
+    "main.js": "/static/js/main.41edc655.js",
     "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
-    "static/media/profile.jpg": "/static/media/profile.f50b1e92ca0e307c238b.jpg",
+    "static/media/snowboard.mp4": "/static/media/snowboard.f96a32c5beeb5c54bab8.mp4",
+    "static/media/celesteandi.jpg": "/static/media/celesteandi.f1a9ba423ebbe62a352c.jpg",
+    "static/media/utoronto.jpg": "/static/media/utoronto.a5e1ddcd6534a4ee4f5f.jpg",
+    "static/media/flowers.jpg": "/static/media/flowers.1f9a4978dde647b03f1d.jpg",
     "index.html": "/index.html",
-    "main.f2d9811a.css.map": "/static/css/main.f2d9811a.css.map",
-    "main.a33c8074.js.map": "/static/js/main.a33c8074.js.map",
+    "main.c3105386.css.map": "/static/css/main.c3105386.css.map",
+    "main.41edc655.js.map": "/static/js/main.41edc655.js.map",
     "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2d9811a.css",
-    "static/js/main.a33c8074.js"
+    "static/css/main.c3105386.css",
+    "static/js/main.41edc655.js"
   ]
 }
