@@ -45,8 +45,6 @@ function About() {
   ];
 
   useEffect(() => {
-    // Get the total duration based on the number of media items
-    const totalDuration = mediaContent.length * 6000; // 6 seconds per item
   
     const timer = setInterval(() => {
       setCurrentMediaIndex((prevIndex) => 
