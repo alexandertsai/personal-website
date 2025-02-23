@@ -11,6 +11,7 @@ function Blog() {
             <article className="blog-post-preview">
               <div className="post-meta">
                 <span className="date">{post.date}</span>
+                <span className="category">{post.category}</span>
               </div>
               <h2>{post.title}</h2>
               <p className="preview-text">{post.preview}</p>
@@ -22,4 +23,4 @@ function Blog() {
   );
 }
 
-export default Blog;  // Make sure this line is present
+export default Blog;

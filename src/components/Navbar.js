@@ -30,6 +30,14 @@ function Navbar() {
             Blog
           </Link>
         </li>
+        <li>
+          <Link 
+            to="/books" 
+            className={location.pathname === '/books' ? 'active' : ''}
+          >
+            Books
+          </Link>
+        </li>
       </ul>
     </nav>
   );
