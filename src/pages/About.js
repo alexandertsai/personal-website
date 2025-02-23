@@ -3,6 +3,8 @@ import snowboarding from '../assets/snowboard.mp4';
 import image1 from '../assets/flowers.jpg';
 import image2 from '../assets/utoronto.jpg';
 import image3 from '../assets/celesteandi.jpg';
+import image4 from '../assets/reach.jpg';
+import piano from '../assets/piano.mp4';
 
 function About() {
   const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
@@ -20,9 +22,19 @@ function About() {
       position: '50% 40%'
     },
     {
+      type: 'video',
+      source: piano,
+      caption: 'My rendition of Traumerei by Schumann'
+    },
+    {
       type: 'image',
       source: image2,
       caption: 'My journey to UofT!'
+    },
+    {
+      type: 'image',
+      source: image4,
+      caption: 'My Reach Alliance team'
     },
     {
       type: 'image',
