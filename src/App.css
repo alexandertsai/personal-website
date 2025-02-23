@@ -169,21 +169,83 @@ h1 {
 .about-container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem 2rem;
 }
 
 .profile-section {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .profile-image {
   width: 150px;
   height: 150px;
   object-fit: cover;
-  /* Changed from border-radius: 50% to make it square */
+}
+
+.about-content {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #111;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+}
+
+.about-page {
+  width: 100%;
+}
+
+.hero-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0rem 2rem 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #374151;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  line-height: 1.5;
+}
+
+.hero-media {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  aspect-ratio: 16 / 9;
+  background: #f5f5f5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.placeholder-media {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #f0f0f0, #f8f8f8);
+}
+
+/* Add these base styles if not already present */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #111;
+  line-height: 1.7;
 }
 
 .blog-post-page {
@@ -332,4 +394,75 @@ h1 {
   margin: 1rem 0 2rem 0;
   padding-bottom: 1rem;
   border-bottom: 1px solid #eee;
+}
+
+.hero-media-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #f5f5f5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.media-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.media-item.active {
+  opacity: 1;
+}
+
+.hero-video,
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.media-caption {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.media-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ccc;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background: #666;
+}
+
+.dot:hover {
+  background: #999;
 }
