@@ -18,7 +18,7 @@ function About() {
     {
       type: 'image',
       source: image1,
-      caption: 'Flowers I made <3',
+      caption: 'An arrangement I made!',
       position: '50% 40%'
     },
     {
@@ -61,7 +61,7 @@ function About() {
       <div className="hero-section">
         <h1>Hi, I'm Alex :&#41;</h1>
         <p className="hero-subtitle">
-          I like watermelons. I also like to code (sometimes).
+          I enjoy watermelons and coding (sometimes).
         </p>
         
         <div className="hero-media-container">
@@ -114,13 +114,15 @@ function About() {
       <div className="about-container">
         <div className="about-content">
           <p>
-            I'm a student at SMU and a researcher at Reach Alliance. My main interest lies in conversational AI for behavioural change. One of my current projects centers around creating chatbots for migrant workers to enhance their financial literacy.
+            I'm a student at SMU and a researcher at Reach Alliance. 
+            My main interest lies in conversational AI for behavioural change. 
+            My current project centers around creating chatbots for migrant workers in Singapore to enhance their financial literacy.
           </p>
           <p>
-            During my free time, I bake chocolate chip cookies! I also create floral arrangements for various occasions - mother's day, valentines day, concert day and so on.
+            During my free time, I enjoy reading fictional books. I also create floral arrangements during special occasions &#45; concerts, mother's day etc.
           </p>
           <p>
-            Please feel free to reach out. I will talk to you I promise!.
+            Please feel free to reach out at alexandertsaiyihrae@gmail.com. I will talk to you I promise!.
           </p>
         </div>
       </div>

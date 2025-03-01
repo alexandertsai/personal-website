@@ -16,8 +16,8 @@ export const projects = [
     {
       id: 3,
       title: "Portfolio Website",
-      description: "A personal portfolio website built with React and hosted on GitHub Pages.",
+      description: "The website you are viewing now was built with React and hosted on GitHub Pages!",
       technologies: ["React", "GitHub Pages", "CSS"],
-      link: "https://github.com/yourusername/portfolio"
+      link: "https://github.com/alexandertsai/personal-website"
     }
   ];

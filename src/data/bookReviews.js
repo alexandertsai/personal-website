@@ -1,7 +1,7 @@
-import atomicHabits from './books/atomic-habits.js';
+import thelastlecture from './books/thelastlecture.js';
 // Import additional reviews as you create them
 
 export const bookReviews = [
-  atomicHabits,
+  thelastlecture,
   // Add new reviews here
 ];
