@@ -16,12 +16,6 @@ function About() {
       caption: 'Snowboarding in Niseko, Japan'
     },
     {
-      type: 'image',
-      source: image1,
-      caption: 'An arrangement I made!',
-      position: '50% 40%'
-    },
-    {
       type: 'video',
       source: piano,
       caption: 'My rendition of Traumerei by Schumann'
@@ -35,6 +29,12 @@ function About() {
       type: 'image',
       source: image4,
       caption: 'My Reach Alliance team'
+    },
+    {
+      type: 'image',
+      source: image1,
+      caption: 'An arrangement I made!',
+      position: '50% 40%'
     },
     {
       type: 'image',

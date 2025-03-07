@@ -466,3 +466,82 @@ body {
 .dot:hover {
   background: #999;
 }
+
+.essays-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.essay-preview {
+  padding: 2rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.essay-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.essay-meta {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.essay-meta span {
+  margin-right: 1rem;
+}
+
+.essay-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.essay-content {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.blog-post-content img {
+  width: 100%;
+  max-width: 100%;  /* Ensures image doesn't exceed container width */
+  height: auto;     /* Maintains aspect ratio */
+  display: block;   /* Makes image a block element */
+  margin: 2rem auto; /* Adds vertical spacing and centers the image */
+}
+
+/* If you also want to add a subtle border or shadow: */
+.blog-post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 8px;  /* Optional: rounds the corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* Optional: adds subtle shadow */
+}
+
+/* If you want to add a caption style: */
+.blog-post-content img + em {
+  display: block;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.blog-post-content pre {
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+/* For inline code */
+.blog-post-content code:not([class*="language-"]) {
+  background-color: #f5f5f5;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  color: #e83e8c;
+}

@@ -2,6 +2,11 @@ import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import { blogPosts } from '../data/blogPosts';
 import ReactMarkdown from 'react-markdown';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { prism } from 'react-syntax-highlighter/dist/esm/styles/prism'; // VSCode dark theme
+// Or use other themes like:
+// import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
+// import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 function BlogPost() {
   const { id } = useParams();
@@ -19,7 +24,34 @@ function BlogPost() {
         <span className="category">{post.category}</span>
       </div>
       <div className="blog-post-content">
-        <ReactMarkdown>{post.content}</ReactMarkdown>
+        <ReactMarkdown
+          components={{
+            code({node, inline, className, children, ...props}) {
+              const match = /language-(\w+)/.exec(className || '');
+              return !inline && match ? (
+                <SyntaxHighlighter
+                  style={prism} // style
+                  language={match[1]}
+                  PreTag="div"
+                  customStyle={{
+                    backgroundColor: '#f6f8fa',  // Light gray background
+                    borderRadius: '6px',
+                    padding: '16px'
+                  }}
+                  {...props}
+                >
+                  {String(children).replace(/\n$/, '')}
+                </SyntaxHighlighter>
+              ) : (
+                <code className={className} {...props}>
+                  {children}
+                </code>
+              );
+            }
+          }}
+        >
+          {post.content}
+        </ReactMarkdown>
       </div>
     </div>
   );

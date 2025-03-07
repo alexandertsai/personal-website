@@ -4,7 +4,7 @@ const review = {
     date: "3 March, 2025",
     category: "Non-Fiction",
     rating: "4/5",
-    preview: "A book on childhood dreams and family...",
+    preview: "A book on childhood dreams and family.",
     content: `
   
   ## Summary

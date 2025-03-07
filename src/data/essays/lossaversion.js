@@ -1,12 +1,10 @@
-const post = {
-  id: 1,
-  title: "Analysing TFR Through Loss Aversion",
-  date: "3 March, 2025",
-  category: "Policy Making",
-  preview: "The marked decline in the Total Fertility Rate (TFR) across...",
-  content: `
-
-  ## Analysing Singapore's Declining TFR Through Loss Aversion
+const essay = {
+    id: 1,
+    title: "Analysing Singapore's Declining TFR Through Loss Aversion",
+    date: "3 March, 2025",
+    category: "Policy Making",
+    preview: "The marked decline in TFR has far-reaching implications...",
+    content: `
 
   The marked decline in the Total Fertility Rate (TFR) across developed countries has
 sparked discourse on its far-reaching implications for social structures, labour markets, and
@@ -113,7 +111,7 @@ International Bar Association. https://www.ibanet.org/Declining-fertility-rates-
 
 Yap, M. T. (2003). Fertility and population policy: The Singapore experience. Journal of
 Population and Social Security: Population Study, Supplement to Volume 1.
-`
-};
-
-export default post;
+  `
+  };
+  
+  export default essay;

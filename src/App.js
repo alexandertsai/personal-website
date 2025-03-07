@@ -8,6 +8,8 @@ import BlogPost from './pages/BlogPost';
 import './App.css';
 import Books from './pages/Books';
 import BookReview from './pages/BookReview';
+import Essays from './pages/Essays';
+import Essay from './pages/Essay';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
             <Route path="/blog/:id" element={<BlogPost />} />
             <Route path="/books" element={<Books />} />
             <Route path="/books/:id" element={<BookReview />} />
+            <Route path="/essays" element={<Essays />} />
+            <Route path="/essays/:id" element={<Essay />} />
           </Routes>
         </main>
       </div>

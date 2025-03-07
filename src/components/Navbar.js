@@ -38,6 +38,14 @@ function Navbar() {
             Books
           </Link>
         </li>
+        <li>
+          <Link 
+            to="/essays" 
+            className={location.pathname === '/essays' ? 'active' : ''}
+          >
+            Essays
+          </Link>
+        </li>
       </ul>
     </nav>
   );
