@@ -1,10 +1,10 @@
 export const projects = [
     {
       id: 1,
-      title: "Weather App",
-      description: "A React weather application using OpenWeather API to display current weather conditions and forecasts.",
-      technologies: ["React", "API", "CSS"],
-      link: "https://github.com/yourusername/weather-app"
+      title: "Invoice Automator",
+      description: "Automating the generation and sending of invoices.",
+      technologies: ["AppleScript", "Python"],
+      link: "https://github.com/alexandertsai/invoice-automator"
     },
     {
       id: 2,

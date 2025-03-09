@@ -124,20 +124,17 @@ with open("final.txt", "w") as f:
 
 "final.txt" here was the name of my 2018 Scrabble repository. This code simply reads through all the words line by line in the text file. If the word does not have double letters, they will be written back into the text file. If not, they will be skipped.
 \`\`\`python
-#main
 import string
 alphabet = set(string.ascii_lowercase)
 with open ("final.txt") as file:
     forbiddenletters = alphabet.difference(letterstoday)
     r = []
     for line in file:
-        line = line.strip('\n')
+        line = line.strip('\\n')
         line = line.translate({ord(c): None for c in "-.'"})
-        #edit this line!!
         if keyability(letterstoday,line.lower()) and not any(x in forbiddenletters for x in line.lower()) and desired.issubset(line.lower()) and len(line)>5:
             r.append(line)
 print(r)
-#print(len(r))
 \`\`\`
 This was the main code. "alphabet" was simply all the letters in the alphabet. "forbiddenletters" referred to the letters that could not be inputted into the Letterboxed game. The fourth last line was a very long IF statement utilising numerous conditions to determine if a word should or should not be shown in the final output.
 

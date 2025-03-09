@@ -342,6 +342,10 @@ body {
   border-bottom: 1px solid #eee;
 }
 
+.book-review-preview:hover {
+  background: #f9f9f9;
+}
+
 .book-review-link {
   text-decoration: none;
   color: inherit;
@@ -476,6 +480,10 @@ body {
 .essay-preview {
   padding: 2rem 0;
   border-bottom: 1px solid #eee;
+}
+
+.essay-preview:hover {
+  background: #f9f9f9;
 }
 
 .essay-link {
