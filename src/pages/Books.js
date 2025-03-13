@@ -7,7 +7,7 @@ function Books() {
     <div className="books-page">
       <div className="book-reviews">
         {bookReviews.map((review) => (
-          <Link to={`/books/${review.id}`} key={review.id} className="book-review-link">
+          <Link to={`/books/${review.slug}`} key={review.id} className="book-review-link">
             <article className="book-review-preview">
               <div className="review-meta">
                 <span className="date">{review.date}</span>

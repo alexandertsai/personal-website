@@ -61,7 +61,7 @@ function About() {
       <div className="hero-section">
         <h1>Hi, I'm Alex :&#41;</h1>
         <p className="hero-subtitle">
-          I enjoy watermelons and coding (sometimes).
+          This is my website for everything and anything.
         </p>
         
         <div className="hero-media-container">
@@ -119,7 +119,7 @@ function About() {
             My current project centers around creating chatbots for migrant workers in Singapore to enhance their financial literacy.
           </p>
           <p>
-            During my free time, I enjoy reading fictional books. I also create floral arrangements during special occasions &#45; concerts, mother's day etc.
+            During my free time, I enjoy reading (see Books section) or going for a run. I also create floral arrangements during special occasions &#45; concerts, mother's day etc.
           </p>
           <p>
             Please feel free to reach out at alexandertsaiyihrae@gmail.com. I will talk to you I promise!.

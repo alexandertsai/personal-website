@@ -9,8 +9,8 @@ import { prism } from 'react-syntax-highlighter/dist/esm/styles/prism'; // VSCod
 // import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 function BlogPost() {
-  const { id } = useParams();
-  const post = blogPosts.find(post => post.id === parseInt(id));
+  const { slug } = useParams();
+  const post = blogPosts.find(post => post.slug === slug);
 
   if (!post) {
     return <Navigate to="/blog" />;

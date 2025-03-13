@@ -16,7 +16,6 @@ body {
 /* Navigation */
 nav {
   padding: 1rem 2rem;
-  border-bottom: 1px solid #e5e5e5;
   background: white;
 }
 
@@ -26,6 +25,7 @@ nav ul {
   gap: 2rem;
   margin: 0;
   padding: 0;
+  justify-content: flex-end;
 }
 
 nav a {

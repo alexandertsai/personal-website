@@ -7,7 +7,7 @@ function Blog() {
     <div className="blog-page">
       <div className="blog-posts">
         {blogPosts.map((post) => (
-          <Link to={`/blog/${post.id}`} key={post.id} className="blog-post-link">
+          <Link to={`/blog/${post.slug}`} key={post.id} className="blog-post-link">
             <article className="blog-post-preview">
               <div className="post-meta">
                 <span className="date">{post.date}</span>

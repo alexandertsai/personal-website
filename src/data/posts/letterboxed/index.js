@@ -12,6 +12,7 @@ import image9 from './images/solved2.png';
 const post = {
   id: 2,  // increment from your last post
   title: "Solving Letterboxed",
+  slug: "solving-letterboxed",
   date: "2 June, 2024",
   category: "Game Solving",
   preview: "NYT's Letterboxed tackled using rudimentary Python!",

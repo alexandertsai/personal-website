@@ -4,8 +4,8 @@ import { bookReviews } from '../data/bookReviews';
 import ReactMarkdown from 'react-markdown';
 
 function BookReview() {
-  const { id } = useParams();
-  const review = bookReviews.find(review => review.id === parseInt(id));
+  const { slug } = useParams();
+  const review = bookReviews.find(review => review.slug === slug);
 
   if (!review) {
     return <Navigate to="/books" />;

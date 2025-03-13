@@ -1,6 +1,7 @@
 const essay = {
     id: 1,
     title: "Analysing Singapore's Declining TFR Through Loss Aversion",
+    slug:"tfr-through-loss-aversion",
     date: "3 March, 2025",
     category: "Policy Making",
     preview: "The marked decline in TFR has far-reaching implications...",

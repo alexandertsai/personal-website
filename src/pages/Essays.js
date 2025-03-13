@@ -7,7 +7,7 @@ function Essays() {
     <div className="essays-page">
       <div className="essays-list">
         {essays.map((essay) => (
-          <Link to={`/essays/${essay.id}`} key={essay.id} className="essay-link">
+          <Link to={`/essays/${essay.slug}`} key={essay.id} className="essay-link">
             <article className="essay-preview">
               <div className="essay-meta">
                 <span className="date">{essay.date}</span>
