@@ -1,11 +1,11 @@
-const blogPostTemplate = {
+const post = {
   id: 0,  // Remember to update this for each new post
+  slug: "your-url",
   title: "Post Title Here",
   date: "February 9, 2024",
   category: "Category",
   preview: "First paragraph of your post will go here as a preview...",
   content: `
-February 9, 2024 | Category
 
 First paragraph of your post. This is where you introduce your topic and hook the reader.
 
@@ -38,4 +38,4 @@ Wrap up your post with concluding thoughts or a call to action.
 `
 };
 
-export default blogPostTemplate;
+export default post;

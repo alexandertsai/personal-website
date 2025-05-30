@@ -1,5 +1,12 @@
 export const projects = [
     {
+      id: 5,
+      title: "Footfall Analysis",
+      description: "Counting the number of unique visitors in a mall via live survellience tracking.",
+      technologies: ["Python", "Pytorch"],
+      link: "https://github.com/alexandertsai/footfall-analysis"
+    },
+    {
       id: 4,
       title: "Telegram MCP",
       description: "Allows you to summarise unread Telegram messages and reply in your style from Claude Desktop.",
