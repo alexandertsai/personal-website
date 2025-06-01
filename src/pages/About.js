@@ -114,7 +114,7 @@ function About() {
       <div className="about-container">
         <div className="about-content">
           <p>
-            I'm a student at SMU and a researcher at Reach Alliance. 
+            I'm a student at SMU and currently an intern at Tradeweb in New York! 
             My main interest lies in conversational AI for behavioural change. 
             My current project centers around creating chatbots for migrant workers in Singapore to enhance their financial literacy.
           </p>
