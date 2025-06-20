@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a0cd03f.css",
-    "main.js": "/static/js/main.9d0fb194.js",
+    "main.css": "/static/css/main.9797e632.css",
+    "main.js": "/static/js/main.8810aaf0.js",
     "static/js/453.0437a03d.chunk.js": "/static/js/453.0437a03d.chunk.js",
-    "static/media/piano.mp4": "/static/media/piano.1a17581bcf375a21bbc3.mp4",
+    "static/media/wuxi.png": "/static/media/wuxi.508c6e2c1b6f48cdf0e8.png",
+    "static/media/scenic.png": "/static/media/scenic.821cfc7d7ae7a1873bae.png",
     "static/media/snowboard.mp4": "/static/media/snowboard.f96a32c5beeb5c54bab8.mp4",
+    "static/media/grad.png": "/static/media/grad.47ff37fd3eece6212b9e.png",
     "static/media/image3.png": "/static/media/image3.224cadbd4462b243ffa7.png",
     "static/media/image1.png": "/static/media/image1.9dfbb382b01839b4bc76.png",
     "static/media/celesteandi.jpg": "/static/media/celesteandi.f1a9ba423ebbe62a352c.jpg",
     "static/media/image2.png": "/static/media/image2.f75d8ab8cf28389c3377.png",
-    "static/media/reach.jpg": "/static/media/reach.7b32eb96bc2751f9a231.jpg",
     "static/media/utoronto.jpg": "/static/media/utoronto.a5e1ddcd6534a4ee4f5f.jpg",
     "static/media/flowers.jpg": "/static/media/flowers.1f9a4978dde647b03f1d.jpg",
     "static/media/google.png": "/static/media/google.229304e8c76e36ca65e5.png",
@@ -22,12 +23,12 @@
     "static/media/actual.png": "/static/media/actual.29db74db4a9fee20b428.png",
     "static/media/empty.png": "/static/media/empty.8ffad86ce2d55bc1fc99.png",
     "index.html": "/index.html",
-    "main.0a0cd03f.css.map": "/static/css/main.0a0cd03f.css.map",
-    "main.9d0fb194.js.map": "/static/js/main.9d0fb194.js.map",
+    "main.9797e632.css.map": "/static/css/main.9797e632.css.map",
+    "main.8810aaf0.js.map": "/static/js/main.8810aaf0.js.map",
     "453.0437a03d.chunk.js.map": "/static/js/453.0437a03d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a0cd03f.css",
-    "static/js/main.9d0fb194.js"
+    "static/css/main.9797e632.css",
+    "static/js/main.8810aaf0.js"
   ]
 }
