@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import { bookReviews } from '../data/bookReviews';
 import ReactMarkdown from 'react-markdown';
+import { calculateReadingTime, formatReadingTime } from '../utils/readingTime';
 
 function BookReview() {
   const { slug } = useParams();
@@ -18,6 +19,7 @@ function BookReview() {
         <span className="date">{review.date}</span>
         <span className="category">{review.category}</span>
         {review.rating && <span className="rating">{review.rating}</span>}
+        <span className="reading-time">{formatReadingTime(calculateReadingTime(review.content))}</span>
       </div>
       <div className="book-review-content">
         <ReactMarkdown>{review.content}</ReactMarkdown>

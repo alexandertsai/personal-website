@@ -3,22 +3,28 @@ import snowboarding from '../assets/snowboard.mp4';
 import image1 from '../assets/flowers.jpg';
 import image2 from '../assets/utoronto.jpg';
 import image3 from '../assets/celesteandi.jpg';
-import image4 from '../assets/reach.jpg';
-import piano from '../assets/piano.mp4';
+import image4 from '../assets/grad.png';
+import wuxi from '../assets/wuxi.png';
+import scenic from '../assets/scenic.png'
 
 function About() {
   const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
   
   const mediaContent = [
     {
+      type: 'image',
+      source: scenic,
+      caption: 'Something I took near my old school'
+    },
+    {
       type: 'video',
       source: snowboarding,
       caption: 'Snowboarding in Niseko, Japan'
     },
     {
-      type: 'video',
-      source: piano,
-      caption: 'My rendition of Traumerei by Schumann'
+      type: 'image',
+      source: wuxi,
+      caption: 'One of the temples in Wuxi'
     },
     {
       type: 'image',
@@ -28,7 +34,7 @@ function About() {
     {
       type: 'image',
       source: image4,
-      caption: 'My Reach Alliance team'
+      caption: 'My sister\'s graduation'
     },
     {
       type: 'image',
@@ -50,18 +56,17 @@ function About() {
       setCurrentMediaIndex((prevIndex) => 
         (prevIndex + 1) % mediaContent.length
       );
-    }, 6000); // Keep this at 6000 (6 seconds) or adjust if you want longer/shorter intervals
+    }, 7000);
   
-    // Reset the timer when component unmounts
     return () => clearInterval(timer);
-  }, [mediaContent.length]); // Add mediaContent.length as a dependency
+  }, [mediaContent.length]);
 
   return (
     <div className="about-page">
       <div className="hero-section">
         <h1>Hi, I'm Alex :&#41;</h1>
         <p className="hero-subtitle">
-          This is my website for everything and anything.
+          This is my website where I post writings and other projects!
         </p>
         
         <div className="hero-media-container">
@@ -116,7 +121,7 @@ function About() {
           <p>
             I'm a student at SMU and currently an intern at Tradeweb in New York! 
             My main interest lies in conversational AI for behavioural change. 
-            My current project centers around creating chatbots for migrant workers in Singapore to enhance their financial literacy.
+            One of my previous projects centered around creating chatbots for migrant workers in Singapore to enhance their financial literacy.
           </p>
           <p>
             During my free time, I enjoy reading (see Books section) or going for a run. I also create floral arrangements during special occasions &#45; concerts, mother's day etc.

@@ -3,7 +3,8 @@ import { useParams, Navigate } from 'react-router-dom';
 import { blogPosts } from '../data/blogPosts';
 import ReactMarkdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { prism } from 'react-syntax-highlighter/dist/esm/styles/prism'; // VSCode dark theme
+import { prism } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { calculateReadingTime, formatReadingTime } from '../utils/readingTime'; // VSCode dark theme
 // Or use other themes like:
 // import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
 // import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
@@ -22,6 +23,7 @@ function BlogPost() {
       <div className="blog-post-meta">
         <span className="date">{post.date}</span>
         <span className="category">{post.category}</span>
+        <span className="reading-time">{formatReadingTime(calculateReadingTime(post.content))}</span>
       </div>
       <div className="blog-post-content">
         <ReactMarkdown

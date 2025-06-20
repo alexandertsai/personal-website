@@ -3,6 +3,7 @@ import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import { essays } from '../data/essays';
 import ReactMarkdown from 'react-markdown';
+import { calculateReadingTime, formatReadingTime } from '../utils/readingTime';
 
 function Essay() {
   const { slug } = useParams();
@@ -96,6 +97,7 @@ function Essay() {
       <div className="essay-meta">
         <span className="date">{essay.date}</span>
         <span className="category">{essay.category}</span>
+        <span className="reading-time">{formatReadingTime(calculateReadingTime(essay.content))}</span>
       </div>
       <div className="essay-content">
         <ReactMarkdown components={components}>{essay.content}</ReactMarkdown>
