@@ -20,7 +20,7 @@ you (the reader) might gain some insights from!
 
 ### Challenges and Solutions
 Throughout the course we would use Google Colab notebooks to run through most of the concepts. I'd usually start on
-the whiteboard and slides and then show an example of an implementation in code . It was really heartening to see the students
+the whiteboard and slides and then show an example of an implementation in code. It was really heartening to see the students
 light up when they could see *something* happening.
 
 ![GAN-model](${image2})

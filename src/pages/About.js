@@ -13,6 +13,11 @@ function About() {
   const mediaContent = [
     {
       type: 'image',
+      source: wuxi,
+      caption: 'One of the temples in Wuxi'
+    },
+    {
+      type: 'image',
       source: scenic,
       caption: 'Something I took near my old school'
     },
@@ -20,11 +25,6 @@ function About() {
       type: 'video',
       source: snowboarding,
       caption: 'Snowboarding in Niseko, Japan'
-    },
-    {
-      type: 'image',
-      source: wuxi,
-      caption: 'One of the temples in Wuxi'
     },
     {
       type: 'image',

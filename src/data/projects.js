@@ -1,16 +1,16 @@
 export const projects = [
-    {
+  {
       id: 5,
       title: "Footfall Analysis",
-      description: "Counting the number of unique visitors in a mall via live survellience tracking.",
-      technologies: ["Python", "Pytorch"],
+      description: "Counting the number of unique visitors in a mall via live surveillance tracking.",
+      technologies: ["Pytorch","YOLOv8"],
       link: "https://github.com/alexandertsai/footfall-analysis"
     },
     {
       id: 4,
       title: "Telegram MCP",
       description: "Allows you to summarise unread Telegram messages and reply in your style from Claude Desktop.",
-      technologies: ["Python", "MCP", "Telegram API"],
+      technologies: ["Python", "MCP"],
       link: "https://github.com/alexandertsai/mcp-telegram"
     },
     {
@@ -24,14 +24,14 @@ export const projects = [
       id: 2,
       title: "Company Website",
       description: "The official website for Kada at 5 Kadayanallur Street.",
-      technologies: ["React", "Javascript", "CSS", "HTML"],
+      technologies: ["Next.js", "Javascript"],
       link: "https://kada.sg"
     },
     {
       id: 1,
       title: "Portfolio Website",
       description: "The website you are viewing now was built with React and hosted on GitHub Pages!",
-      technologies: ["React", "Javascript", "Git", "CSS"],
+      technologies: ["React.js", "Javascript"],
       link: "https://github.com/alexandertsai/personal-website"
     }
   ];
