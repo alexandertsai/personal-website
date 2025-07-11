@@ -68,7 +68,7 @@ During my last few days, I felt kind of sad. 6 weeks is honestly way too short. 
 and I think I am going to miss the people here a lot. The work was a lot of fun for sure, and I'm super grateful I got work on an amazing project, but it really
 was the people around me that created that environment for the work to be enjoyable in the first place. Another thing that happened on my second last day was that
 I talked to Kamrie for the first time. We had a great conversation about our career ambitions and some of the issues we were currently facing. Later while walking to the
-train station at Times Sqaure, Kamrie mentioned that it was such a pity we only talked on my second last day because that might be the first and last time we see each other.
+train station at Times Square, Kamrie mentioned that it was such a pity we only talked on my second last day because that might be the first and last time we see each other.
 She went: "Could you imagine if we had talked to each other earlier? We could have been good friends this whole time!" And I realise I feel that way a lot — I'll get to know
 someone and realise that I should have started talking to them so much earlier if I knew we were going to click this well. Maybe next time I should
 approach people and have a conversation with them early because you never really know how well you guys might get along. If it doesn't work then at least you got it
