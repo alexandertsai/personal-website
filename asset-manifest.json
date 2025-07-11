@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9797e632.css",
-    "main.js": "/static/js/main.c22064e2.js",
+    "main.css": "/static/css/main.324d5e24.css",
+    "main.js": "/static/js/main.2c67d5e0.js",
     "static/js/453.0437a03d.chunk.js": "/static/js/453.0437a03d.chunk.js",
+    "static/media/image1.png": "/static/media/image1.9dfbb382b01839b4bc76.png",
+    "static/media/image2.png": "/static/media/image2.f75d8ab8cf28389c3377.png",
+    "static/media/image5.png": "/static/media/image5.246f83512f57813e5dd5.png",
+    "static/media/image4.png": "/static/media/image4.ed1fcccd7c95b702d47b.png",
+    "static/media/image3.png": "/static/media/image3.224cadbd4462b243ffa7.png",
     "static/media/wuxi.png": "/static/media/wuxi.508c6e2c1b6f48cdf0e8.png",
     "static/media/scenic.png": "/static/media/scenic.821cfc7d7ae7a1873bae.png",
     "static/media/snowboard.mp4": "/static/media/snowboard.f96a32c5beeb5c54bab8.mp4",
     "static/media/grad.png": "/static/media/grad.47ff37fd3eece6212b9e.png",
-    "static/media/image3.png": "/static/media/image3.224cadbd4462b243ffa7.png",
-    "static/media/image1.png": "/static/media/image1.9dfbb382b01839b4bc76.png",
     "static/media/celesteandi.jpg": "/static/media/celesteandi.f1a9ba423ebbe62a352c.jpg",
-    "static/media/image2.png": "/static/media/image2.f75d8ab8cf28389c3377.png",
     "static/media/utoronto.jpg": "/static/media/utoronto.a5e1ddcd6534a4ee4f5f.jpg",
     "static/media/flowers.jpg": "/static/media/flowers.1f9a4978dde647b03f1d.jpg",
     "static/media/google.png": "/static/media/google.229304e8c76e36ca65e5.png",
@@ -23,12 +25,12 @@
     "static/media/actual.png": "/static/media/actual.29db74db4a9fee20b428.png",
     "static/media/empty.png": "/static/media/empty.8ffad86ce2d55bc1fc99.png",
     "index.html": "/index.html",
-    "main.9797e632.css.map": "/static/css/main.9797e632.css.map",
-    "main.c22064e2.js.map": "/static/js/main.c22064e2.js.map",
+    "main.324d5e24.css.map": "/static/css/main.324d5e24.css.map",
+    "main.2c67d5e0.js.map": "/static/js/main.2c67d5e0.js.map",
     "453.0437a03d.chunk.js.map": "/static/js/453.0437a03d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9797e632.css",
-    "static/js/main.c22064e2.js"
+    "static/css/main.324d5e24.css",
+    "static/js/main.2c67d5e0.js"
   ]
 }
