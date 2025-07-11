@@ -3,7 +3,6 @@ const post = {
   slug: "your-url",
   title: "Post Title Here",
   date: "February 9, 2024",
-  category: "Category",
   preview: "First paragraph of your post will go here as a preview...",
   content: `
 

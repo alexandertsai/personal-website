@@ -3,7 +3,7 @@ export const projects = [
       id: 5,
       title: "Footfall Analysis",
       description: "Counting the number of unique visitors in a mall via live surveillance tracking.",
-      technologies: ["Pytorch","YOLOv8"],
+      technologies: ["PyTorch","YOLOv8"],
       link: "https://github.com/alexandertsai/footfall-analysis"
     },
     {

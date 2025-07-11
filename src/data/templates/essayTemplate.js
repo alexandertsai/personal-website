@@ -2,7 +2,6 @@ const essayTemplate = {
     id: 0,
     title: "Essay Title",
     date: "February 9, 2024",
-    category: "Category", // e.g., Philosophy, Economics, Computer Science
     preview: "Brief preview of the essay...",
     content: `
   February 9, 2024 | Category

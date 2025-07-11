@@ -3,7 +3,6 @@ const essay = {
     title: "Why P-Hacking may not be so bad",
     slug: "p-hacking",
     date: "14 March, 2025",
-    category: "Academia",
     preview: "P-hacking, while controversial, may not be causing as much harm as we think",
     content: `
 

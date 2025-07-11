@@ -2,8 +2,6 @@ const bookReviewTemplate = {
     id: 0,
     title: "Book Title by Author",
     date: "February 9, 2024",
-    category: "Category", // e.g., Fiction, Non-Fiction, Technical
-    rating: "4.5/5", // Optional
     preview: "Brief thoughts about the book...",
     content: `
   February 9, 2024 | Category

@@ -7,13 +7,12 @@ const post = {
   slug: "ai-for-youth",
   title: "AI For Youth",
   date: "25 May, 2025",
-  category: "Reflection",
-  preview: "A reflection on my time spent with my CJC students.",
+  preview: "Some lessons from teaching.",
   content: `
 
 ### Overview
 I recently completed my 26 hours with students from Catholic Junior College (CJC). I taught them
-Intel's AI For Youth course, covering most of the AI basics: Python, Numpy, Pandas, GenAI, Fine-Tuning, GANs, diffusion models and so on.
+Intel's AI For Youth course, covering most of the AI basics: Python, NumPy, Pandas, Fine-Tuning, GANs, diffusion models and so on.
 
 I wanted to write a blog post today to reflect and talk about some of the things I learned from this. It was a heartwarming journey that I hope
 you (the reader) might gain some insights from!

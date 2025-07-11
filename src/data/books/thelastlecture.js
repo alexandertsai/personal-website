@@ -3,8 +3,6 @@ const review = {
     title: "The Last Lecture",
     slug: "the-last-lecture",
     date: "3 March, 2025",
-    category: "Non-Fiction",
-    rating: "4/5",
     preview: "A book on childhood dreams and family.",
     content: `
   

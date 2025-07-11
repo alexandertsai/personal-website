@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { essays } from '../data/essays';
-import { calculateReadingTime, formatReadingTime } from '../utils/readingTime';
 
 function Essays() {
   return (
@@ -12,8 +11,6 @@ function Essays() {
             <article className="essay-preview">
               <div className="essay-meta">
                 <span className="date">{essay.date}</span>
-                <span className="category">{essay.category}</span>
-                <span className="reading-time">{formatReadingTime(calculateReadingTime(essay.content))}</span>
               </div>
               <h2>{essay.title}</h2>
               <p className="preview-text">{essay.preview}</p>

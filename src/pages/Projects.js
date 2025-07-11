@@ -5,7 +5,6 @@ import { projects } from '../data/projects';
 function Projects() {
   return (
     <div className="projects-page">
-      <h1>My Projects</h1>
       <div className="projects-grid">
         {projects.map((project) => (
           <Project

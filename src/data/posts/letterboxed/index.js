@@ -14,7 +14,6 @@ const post = {
   title: "Solving Letterboxed",
   slug: "solving-letterboxed",
   date: "2 June, 2024",
-  category: "Game Solving",
   preview: "NYT's Letterboxed tackled using rudimentary Python!",
   content: `
 

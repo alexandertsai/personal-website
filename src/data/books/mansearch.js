@@ -3,8 +3,6 @@ const review = {
     title: "Man's Search for Meaning",
     slug: "man-search-for-meaning",
     date: "16 July, 2025",
-    category: "Non-Fiction",
-    rating: "4/5",
     preview: "The experience of a prisoner in WW2.",
     content: `
   
