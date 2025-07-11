@@ -17,14 +17,14 @@ function About() {
       caption: 'One of the temples in Wuxi'
     },
     {
-      type: 'image',
-      source: scenic,
-      caption: 'Something I took near my old school'
-    },
-    {
       type: 'video',
       source: snowboarding,
       caption: 'Snowboarding in Niseko, Japan'
+    },
+    {
+      type: 'image',
+      source: scenic,
+      caption: 'A grass field near Bukit Panjang'
     },
     {
       type: 'image',
@@ -34,7 +34,8 @@ function About() {
     {
       type: 'image',
       source: image4,
-      caption: 'My sister\'s graduation'
+      caption: 'My sister\'s graduation',
+      position: '90% 80%'
     },
     {
       type: 'image',

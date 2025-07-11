@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect} from 'react';
 import './MusicPlayer.css';
 
 const playlist = [
@@ -24,7 +24,6 @@ function MusicPlayer() {
   const [currentTrack, setCurrentTrack] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [player, setPlayer] = useState(null);
-  const playerRef = useRef(null);
 
   useEffect(() => {
     const loadYouTubeAPI = () => {
@@ -42,10 +41,10 @@ function MusicPlayer() {
     };
 
     const initializePlayer = () => {
-      const ytPlayer = new window.YT.Player('youtube-player', {
+      new window.YT.Player('youtube-player', {
         height: '0',
         width: '0',
-        videoId: playlist[currentTrack].id,
+        videoId: playlist[0].id,
         playerVars: {
           autoplay: 0,
           controls: 0,
@@ -62,7 +61,7 @@ function MusicPlayer() {
           },
           onStateChange: (event) => {
             if (event.data === window.YT.PlayerState.ENDED) {
-              playNextTrack();
+              setCurrentTrack((prev) => (prev + 1) % playlist.length);
             }
             if (event.data === window.YT.PlayerState.PLAYING) {
               setIsPlaying(true);
@@ -78,9 +77,7 @@ function MusicPlayer() {
     loadYouTubeAPI();
 
     return () => {
-      if (player) {
-        player.destroy();
-      }
+      // Cleanup will be handled by the player instance itself
     };
   }, []);
 
@@ -89,10 +86,6 @@ function MusicPlayer() {
       player.loadVideoById(playlist[currentTrack].id);
     }
   }, [currentTrack, player]);
-
-  const playNextTrack = () => {
-    setCurrentTrack((prev) => (prev + 1) % playlist.length);
-  };
 
   const togglePlayPause = () => {
     if (!player) return;

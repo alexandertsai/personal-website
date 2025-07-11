@@ -2,6 +2,7 @@ import image1 from './images/image1.png';
 import image2 from './images/image2.png';
 import image3 from './images/image3.png';
 import image4 from './images/image4.png';
+import image5 from './images/image5.png';
 const post = {
   id: 3,  // Remember to update this for each new post
   slug: "tradeweb",
@@ -54,13 +55,33 @@ came, we burst into laughter. Just look below.
 
 We ended up walking Trisha back to her hotel after all of this. Then Aly and I headed our separate ways.
 
+I had a couple of other good memories, but they're all scattered about the internship. One thing us interns did a lot before presenting our capstone was we would go down
+to the 17th floor. This was essentially a vast empty space for you to just sit around and talk. There was also Jenga and Connect 4 to play if you ever got bored. I distinctly
+remember the music they played on that floor was so, so good. Whoever curated that playlist had taste. On my second last day, I hung out with Allison and her capstone group there
+and we played a couple rounds of Jenga. We played Connect 4 too. Allison and Moises (her capstone groupmate) described my Connect 4 playstyle as "weird" because of how I'd win against them
+by essentially forcing them to play their own losing move...
+
+![view](${image5})
+*The view from the 17th floor*
+
 During my last few days, I felt kind of sad. 6 weeks is honestly way too short. I am writing this post at 3am on the 11th of July (my official last day)
 and I think I am going to miss the people here a lot. The work was a lot of fun for sure, and I'm super grateful I got work on an amazing project, but it really
-was the people around me that created that environment for the work to be enjoyable in the first place. It was a bit bittersweet because it'll be pretty
-difficult for me to see these people again, given they all study in the states while I'm back in Singapore. I'm not saying I'll never see them again, but realistically, there's not a super high chance :/
+was the people around me that created that environment for the work to be enjoyable in the first place. Another thing that happened on my second last day was that
+I talked to Kamrie for the first time. We had a great conversation about our career ambitions and some of the issues we were currently facing. Later while walking to the
+train station at Times Sqaure, Kamrie mentioned that it was such a pity we only talked on my second last day because that might be the first and last time we see each other.
+She went: "Could you imagine if we had talked to each other earlier? We could have been good friends this whole time!" And I realise I feel that way a lot — I'll get to know
+someone and realise that I should have started talking to them so much earlier if I knew we were going to click this well. Maybe next time I should
+approach people and have a conversation with them early because you never really know how well you guys might get along. If it doesn't work then at least you got it
+out of the way early! But if it goes well you have so much to gain.
 
-I might make a separate post on the other things I did in New York, and maybe another post discussing XGBoost for financial modelling (this was the project I spent the most time on).
-But importantly, while I'm glad I got to learn a bunch about fixed-income securities, machine learning, and Tradeweb in general, at the end of the day,
+It's all a bit bittersweet because it'll be pretty difficult for me to see these people again, given they all study in the states while I'm back in Singapore. 
+I'm not saying I'll *never* see them again, but realistically, there's not a super high chance :( Regardless I believe that life is a series of temporary things. There's often the question
+of whether it was worth it to be happy for a little bit, even though it ended up sad (commonly attributed to *Bojack Horseman*, although the question has probably been around for a long time).
+I think it's almost always worth it. Everything will be transient in one way or another. The best we can do is to fill our lives with a bunch of transient, happy events, stretch them
+out for as long as we can, and when they invariably end, we'll just move on to the next one. Maybe someday the things you thought were transient will wander back into your life!
+
+On a separate note, I might make a post after this on the other things I did in New York, and maybe another post discussing XGBoost for financial modelling (this was the project I spent the most time on).
+But importantly, while it was enriching to learn about fixed-income securities, financial modelling, and Tradeweb, at the end of the day,
 I still think the biggest takeaway was the people I got to meet. You've probably heard of this corny and borderline-satirical phrase, but 
 maybe it really was the friends we made along the way.
 
