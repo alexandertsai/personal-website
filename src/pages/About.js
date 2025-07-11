@@ -64,7 +64,7 @@ function About() {
   return (
     <div className="about-page">
       <div className="hero-section">
-        <h1>Hi, I'm Alex :&#41;</h1>
+        <h1>Alexander Tsai</h1>
         <p className="hero-subtitle">
           This is my website where I post writings and other projects!
         </p>
