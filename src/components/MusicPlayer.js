@@ -24,6 +24,7 @@ function MusicPlayer() {
   const [currentTrack, setCurrentTrack] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [player, setPlayer] = useState(null);
+  const [hasUserInteracted, setHasUserInteracted] = useState(false);
 
   useEffect(() => {
     const loadYouTubeAPI = () => {
@@ -82,13 +83,19 @@ function MusicPlayer() {
   }, []);
 
   useEffect(() => {
-    if (player) {
+    if (player && hasUserInteracted) {
       player.loadVideoById(playlist[currentTrack].id);
+    } else if (player && !hasUserInteracted) {
+      player.cueVideoById(playlist[currentTrack].id);
     }
-  }, [currentTrack, player]);
+  }, [currentTrack, player, hasUserInteracted]);
 
   const togglePlayPause = () => {
     if (!player) return;
+
+    if (!hasUserInteracted) {
+      setHasUserInteracted(true);
+    }
 
     if (isPlaying) {
       player.pauseVideo();

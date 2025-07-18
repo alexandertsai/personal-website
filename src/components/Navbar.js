@@ -38,15 +38,6 @@ function Navbar() {
           </li>
           <li>
             <Link 
-              to="/projects" 
-              className={location.pathname === '/projects' ? 'active' : ''}
-              onClick={closeMenu}
-            >
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link 
               to="/blog" 
               className={location.pathname === '/blog' ? 'active' : ''}
               onClick={closeMenu}
@@ -55,6 +46,15 @@ function Navbar() {
             </Link>
           </li>
           <li>
+            <Link 
+              to="/projects" 
+              className={location.pathname === '/projects' ? 'active' : ''}
+              onClick={closeMenu}
+            >
+              Projects
+            </Link>
+          </li>
+          {/* <li>
             <Link 
               to="/books" 
               className={location.pathname === '/books' ? 'active' : ''}
@@ -71,7 +71,7 @@ function Navbar() {
             >
               Essays
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

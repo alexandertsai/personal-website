@@ -120,15 +120,12 @@ function About() {
       <div className="about-container">
         <div className="about-content">
           <p>
-            I'm a student at SMU and currently an intern at Tradeweb in New York! 
-            My main interest lies in conversational AI for behavioural change. 
-            One of my previous projects centered around creating chatbots for migrant workers in Singapore to enhance their financial literacy.
+            I'm a student at SMU and currently an intern at TikTok in Singapore! 
+            My main interest lies in data science and machine learning. 
+            During my free time, I enjoy reading or spending time with my friends and family. {/*I also create floral arrangements during special occasions &#45; concerts, mother's day etc. */}
           </p>
           <p>
-            During my free time, I enjoy reading (see Books section) or going for a run. I also create floral arrangements during special occasions &#45; concerts, mother's day etc.
-          </p>
-          <p>
-            Please feel free to reach out at alexandertsaiyihrae@gmail.com. I will talk to you I promise!.
+            Please feel free to reach out at alexandertsaiyihrae@gmail.com. I will respond I promise!.
           </p>
         </div>
       </div>
