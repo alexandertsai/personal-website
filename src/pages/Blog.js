@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { blogPosts } from './BlogPost';
+import { blogPosts } from './BlogPosts';
 
 function Blog() {
   return (

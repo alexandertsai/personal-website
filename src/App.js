@@ -5,7 +5,7 @@ import MusicPlayer from './components/MusicPlayer';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Blog from './pages/Blog';
-import BlogPost from './pages/BlogPost';
+import BlogPost from './pages/BlogPosts';
 import './App.css';
 
 function App() {

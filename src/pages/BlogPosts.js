@@ -11,7 +11,6 @@ import tradeweb from '../posts/tradeweb/index.js';
 import xgboost from '../posts/xgboost/index.js';
 
 export const blogPosts = [
-  xgboost,
   tradeweb,   // Add new posts from the top
   cjc,
   letterboxed
