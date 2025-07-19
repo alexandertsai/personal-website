@@ -1,12 +1,22 @@
 import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
-import { blogPosts } from '../data/blogPosts';
 import ReactMarkdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { prism } from 'react-syntax-highlighter/dist/esm/styles/prism';
-// Or use other themes like:
-// import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
-// import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
+
+// insert your posts here!!
+import letterboxed from '../posts/letterboxed/index.js';
+import cjc from '../posts/cjc/index.js';
+import tradeweb from '../posts/tradeweb/index.js';
+import xgboost from '../posts/xgboost/index.js';
+
+export const blogPosts = [
+  xgboost,
+  tradeweb,   // Add new posts from the top
+  cjc,
+  letterboxed
+
+];
 
 function BlogPost() {
   const { slug } = useParams();

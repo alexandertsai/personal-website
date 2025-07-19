@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import snowboarding from '../assets/snowboard.mp4';
-import image1 from '../assets/flowers.jpg';
-import image2 from '../assets/utoronto.jpg';
-import image3 from '../assets/celesteandi.jpg';
-import image4 from '../assets/grad.png';
-import wuxi from '../assets/wuxi.png';
-import scenic from '../assets/scenic.png'
+import snowboarding from './assets/snowboard.mp4';
+import image1 from './assets/flowers.jpg';
+import image2 from './assets/utoronto.jpg';
+import image3 from './assets/celesteandi.jpg';
+import image4 from './assets/grad.png';
+import wuxi from './assets/wuxi.png';
+import scenic from './assets/scenic.png'
 
 function About() {
   const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
@@ -125,7 +125,7 @@ function About() {
             During my free time, I enjoy reading or spending time with my friends and family. {/*I also create floral arrangements during special occasions &#45; concerts, mother's day etc. */}
           </p>
           <p>
-            Please feel free to reach out at alexandertsaiyihrae@gmail.com. I will respond I promise!.
+            Please feel free to email <a href='mailto:alexandertsaiyihrae@gmail.com'>here</a>. I will respond I promise!.
           </p>
         </div>
       </div>

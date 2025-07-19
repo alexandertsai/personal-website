@@ -54,24 +54,6 @@ function Navbar() {
               Projects
             </Link>
           </li>
-          {/* <li>
-            <Link 
-              to="/books" 
-              className={location.pathname === '/books' ? 'active' : ''}
-              onClick={closeMenu}
-            >
-              Books
-            </Link>
-          </li>
-          <li>
-            <Link 
-              to="/essays" 
-              className={location.pathname === '/essays' ? 'active' : ''}
-              onClick={closeMenu}
-            >
-              Essays
-            </Link>
-          </li> */}
         </ul>
       </div>
     </nav>
