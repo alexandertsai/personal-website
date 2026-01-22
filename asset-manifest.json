@@ -1,20 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.06845253.css",
-    "main.js": "/static/js/main.2a3e61f2.js",
-    "static/js/453.0437a03d.chunk.js": "/static/js/453.0437a03d.chunk.js",
+    "main.css": "/static/css/main.7ef3ad36.css",
+    "main.js": "/static/js/main.63efe460.js",
+    "static/js/453.855ab442.chunk.js": "/static/js/453.855ab442.chunk.js",
     "static/media/image2.png": "/static/media/image2.f75d8ab8cf28389c3377.png",
     "static/media/image5.png": "/static/media/image5.246f83512f57813e5dd5.png",
     "static/media/image4.png": "/static/media/image4.ed1fcccd7c95b702d47b.png",
     "static/media/image3.png": "/static/media/image3.224cadbd4462b243ffa7.png",
     "static/media/image1.png": "/static/media/image1.9dfbb382b01839b4bc76.png",
-    "static/media/wuxi.png": "/static/media/wuxi.508c6e2c1b6f48cdf0e8.png",
-    "static/media/scenic.png": "/static/media/scenic.821cfc7d7ae7a1873bae.png",
-    "static/media/snowboard.mp4": "/static/media/snowboard.f96a32c5beeb5c54bab8.mp4",
-    "static/media/grad.png": "/static/media/grad.47ff37fd3eece6212b9e.png",
-    "static/media/celesteandi.jpg": "/static/media/celesteandi.f1a9ba423ebbe62a352c.jpg",
-    "static/media/utoronto.jpg": "/static/media/utoronto.a5e1ddcd6534a4ee4f5f.jpg",
-    "static/media/flowers.jpg": "/static/media/flowers.1f9a4978dde647b03f1d.jpg",
+    "static/media/impression_sunrise.jpeg": "/static/media/impression_sunrise.46f56d30c69e431fad7d.jpeg",
+    "static/media/profile.jpg": "/static/media/profile.63f088789969ead7a2b7.jpg",
     "static/media/google.png": "/static/media/google.229304e8c76e36ca65e5.png",
     "static/media/solved.png": "/static/media/solved.149d0be67f8ab26c90c4.png",
     "static/media/motel-lured.png": "/static/media/motel-lured.27384a1045d6dd5be724.png",
@@ -25,12 +20,12 @@
     "static/media/actual.png": "/static/media/actual.29db74db4a9fee20b428.png",
     "static/media/empty.png": "/static/media/empty.8ffad86ce2d55bc1fc99.png",
     "index.html": "/index.html",
-    "main.06845253.css.map": "/static/css/main.06845253.css.map",
-    "main.2a3e61f2.js.map": "/static/js/main.2a3e61f2.js.map",
-    "453.0437a03d.chunk.js.map": "/static/js/453.0437a03d.chunk.js.map"
+    "main.7ef3ad36.css.map": "/static/css/main.7ef3ad36.css.map",
+    "main.63efe460.js.map": "/static/js/main.63efe460.js.map",
+    "453.855ab442.chunk.js.map": "/static/js/453.855ab442.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06845253.css",
-    "static/js/main.2a3e61f2.js"
+    "static/css/main.7ef3ad36.css",
+    "static/js/main.63efe460.js"
   ]
 }
