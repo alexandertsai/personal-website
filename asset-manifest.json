@@ -1,31 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.7ef3ad36.css",
-    "main.js": "/static/js/main.63efe460.js",
+    "main.js": "/static/js/main.2df3b525.js",
     "static/js/453.855ab442.chunk.js": "/static/js/453.855ab442.chunk.js",
-    "static/media/image2.png": "/static/media/image2.f75d8ab8cf28389c3377.png",
-    "static/media/image5.png": "/static/media/image5.246f83512f57813e5dd5.png",
-    "static/media/image4.png": "/static/media/image4.ed1fcccd7c95b702d47b.png",
-    "static/media/image3.png": "/static/media/image3.224cadbd4462b243ffa7.png",
-    "static/media/image1.png": "/static/media/image1.9dfbb382b01839b4bc76.png",
     "static/media/impression_sunrise.jpeg": "/static/media/impression_sunrise.46f56d30c69e431fad7d.jpeg",
+    "static/media/image1.webp": "/static/media/image1.8fba46f48c4b52123bf9.webp",
     "static/media/profile.jpg": "/static/media/profile.63f088789969ead7a2b7.jpg",
-    "static/media/google.png": "/static/media/google.229304e8c76e36ca65e5.png",
-    "static/media/solved.png": "/static/media/solved.149d0be67f8ab26c90c4.png",
-    "static/media/motel-lured.png": "/static/media/motel-lured.27384a1045d6dd5be724.png",
-    "static/media/solved2.png": "/static/media/solved2.5d4341c556e513de0600.png",
-    "static/media/motel.png": "/static/media/motel.213498006182918727fe.png",
-    "static/media/flowerpot.png": "/static/media/flowerpot.084fa651fda9253fbaee.png",
-    "static/media/fixtures.png": "/static/media/fixtures.1a0b42c598945ae357cf.png",
-    "static/media/actual.png": "/static/media/actual.29db74db4a9fee20b428.png",
-    "static/media/empty.png": "/static/media/empty.8ffad86ce2d55bc1fc99.png",
+    "static/media/image2.webp": "/static/media/image2.503a4be7b1d0034de061.webp",
+    "static/media/image5.webp": "/static/media/image5.e5640bd3f2797677d4d6.webp",
+    "static/media/image4.webp": "/static/media/image4.96600230c25e139c046b.webp",
+    "static/media/image3.webp": "/static/media/image3.956661fcbb23ac3f8f5a.webp",
+    "static/media/google.webp": "/static/media/google.46c2b558a5d2b8c1e4b2.webp",
+    "static/media/solved.webp": "/static/media/solved.2d36f5c077687b43feca.webp",
+    "static/media/motel-lured.webp": "/static/media/motel-lured.30a13fb8bb7adc9f047f.webp",
+    "static/media/flowerpot.webp": "/static/media/flowerpot.0832e3a5b7d4bda4d3c4.webp",
+    "static/media/motel.webp": "/static/media/motel.c61171ab65da5085167d.webp",
+    "static/media/solved2.webp": "/static/media/solved2.78d1e48cd4487c1ca701.webp",
+    "static/media/fixtures.webp": "/static/media/fixtures.04445b4a2e55b2126514.webp",
+    "static/media/empty.webp": "/static/media/empty.e1c46b374331b811b258.webp",
+    "static/media/actual.webp": "/static/media/actual.8b2c86d2165168083805.webp",
     "index.html": "/index.html",
     "main.7ef3ad36.css.map": "/static/css/main.7ef3ad36.css.map",
-    "main.63efe460.js.map": "/static/js/main.63efe460.js.map",
+    "main.2df3b525.js.map": "/static/js/main.2df3b525.js.map",
     "453.855ab442.chunk.js.map": "/static/js/453.855ab442.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ef3ad36.css",
-    "static/js/main.63efe460.js"
+    "static/js/main.2df3b525.js"
   ]
 }
