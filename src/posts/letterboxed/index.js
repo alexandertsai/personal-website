@@ -1,12 +1,12 @@
-import image1 from './images/motel.png';
-import image2 from './images/motel-lured.png';
-import image3 from './images/solved.png';
-import image4 from './images/flowerpot.png';
-import image5 from './images/empty.png';
-import image6 from './images/google.png';
-import image7 from './images/actual.png';
-import image8 from './images/fixtures.png';
-import image9 from './images/solved2.png';
+import image1 from './images/motel.webp';
+import image2 from './images/motel-lured.webp';
+import image3 from './images/solved.webp';
+import image4 from './images/flowerpot.webp';
+import image5 from './images/empty.webp';
+import image6 from './images/google.webp';
+import image7 from './images/actual.webp';
+import image8 from './images/fixtures.webp';
+import image9 from './images/solved2.webp';
 
 
 const post = {

@@ -1,6 +1,6 @@
-import image1 from './images/image1.png';
-import image2 from './images/image2.png';
-import image3 from './images/image3.png';
+import image1 from './images/image1.webp';
+import image2 from './images/image2.webp';
+import image3 from './images/image3.webp';
 
 const post = {
   id: 2,  // Remember to update this for each new post
