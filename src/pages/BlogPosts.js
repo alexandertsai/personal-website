@@ -1,30 +1,19 @@
 import React from 'react';
-import { useParams, Navigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { prism } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
-// insert your posts here!!
 import letterboxed from '../posts/letterboxed/index.js';
 import cjc from '../posts/cjc/index.js';
 import tradeweb from '../posts/tradeweb/index.js';
-import xgboost from '../posts/xgboost/index.js';
-import kada from '../posts/kada-utilities/index.js';
 
 export const blogPosts = [
-  tradeweb,   // Add new posts from the top
+  tradeweb,
   cjc,
   letterboxed
 ];
 
-function BlogPost() {
-  const { slug } = useParams();
-  const post = blogPosts.find(post => post.slug === slug);
-
-  if (!post) {
-    return <Navigate to="/blog" />;
-  }
-
+export function PostContent({ post }) {
   return (
     <div className="blog-post-page">
       <h1>{post.title}</h1>
@@ -38,11 +27,11 @@ function BlogPost() {
               const match = /language-(\w+)/.exec(className || '');
               return !inline && match ? (
                 <SyntaxHighlighter
-                  style={prism} // style
+                  style={prism}
                   language={match[1]}
                   PreTag="div"
                   customStyle={{
-                    backgroundColor: '#f6f8fa',  // Light gray background
+                    backgroundColor: '#f6f8fa',
                     borderRadius: '6px',
                     padding: '16px'
                   }}
@@ -65,4 +54,4 @@ function BlogPost() {
   );
 }
 
-export default BlogPost;
+export default PostContent;

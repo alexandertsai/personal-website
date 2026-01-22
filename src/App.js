@@ -1,27 +1,40 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import About from './pages/About';
-import Projects from './pages/Projects';
-import Blog from './pages/Blog';
-import BlogPost from './pages/BlogPosts';
+import { useState } from 'react';
+import { blogPosts, PostContent } from './pages/BlogPosts';
+import sunrise from './pages/images/impression_sunrise.jpeg';
+import profilePic from './pages/images/profile.jpg';
 import './App.css';
 
 function App() {
+  const [selectedPost, setSelectedPost] = useState(blogPosts[0]);
+
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <main>
-          <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:slug" element={<BlogPost />} />
-          </Routes>
+    <div className="App">
+      <div className="banner" style={{ backgroundImage: `url(${sunrise})` }} />
+
+      <header className="site-header">
+        <img src={profilePic} alt="Alexander Tsai" className="profile-pic" />
+        <h1>Alexander Tsai</h1>
+        <p>My website where I post writings and other projects!</p>
+      </header>
+
+      <div className="content-layout">
+        <aside className="sidebar">
+          {blogPosts.map(post => (
+            <div
+              key={post.id}
+              className={`sidebar-item ${post.id === selectedPost.id ? 'active' : ''}`}
+              onClick={() => setSelectedPost(post)}
+            >
+              {post.title}
+            </div>
+          ))}
+        </aside>
+
+        <main className="post-content">
+          <PostContent post={selectedPost} />
         </main>
       </div>
-    </Router>
+    </div>
   );
 }
 
